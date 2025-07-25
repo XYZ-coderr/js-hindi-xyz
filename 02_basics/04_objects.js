@@ -40,9 +40,9 @@ console.log(courseInstructor);
 
 
 //api hat k json hogya hh 
-{//Json , keys bhi string hoti hh or values bhi string 
-    "name" : "hitseh",
-    "coursename" : "js in hindi "
-    "price" : "free"
+//{//Json , keys bhi string hoti hh or values bhi string 
+    //"name": "hitseh",
+   // "coursename": "js in hindi "
+    //"price": "free"
 
-}
+//}
