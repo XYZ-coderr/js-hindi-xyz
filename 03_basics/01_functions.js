@@ -29,3 +29,28 @@ function loginUser(usernamre){
 // const a = loginUser("Numan")
 // console.log(a);
 console.log(loginUser("Numan"));
+
+
+
+//shopping interface types k liye 
+function calculateCartPrice(...num1){ // dots isliye diye taaki joh values aara hh woh array m store ho jaaye 
+return num1
+}
+console.log(calculateCartPrice(2 , 200 , 65 , 55));
+
+const user = {
+    usernamre:"raza",
+    price:58
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.usernamre} and price is ${anyObject.price}`);
+    
+}
+handleObject(user)
+
+const myNewArray = [200 ,400,50,600]
+
+function returnSecondValue(getArray){
+  return getArray[2]
+}
+console.log(returnSecondValue(myNewArray));
