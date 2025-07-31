@@ -17,3 +17,22 @@ for (const greet of greetings) {
 //Maps
 
 const map = new Map()   // object 
+map.set('IN' , "INDIA")
+map.set('UN' , "USA")
+map.set('IN' , "INDIA") // maps are known for their unique values ,no double entries
+map.set('FR' , "FRANCE")
+
+
+
+
+console.log(map);
+
+
+for (const key  of map) { // for of loop 
+    console.log(key);
+    
+}
+for (const [key , value ] of map) {
+    console.log(key , " ->" ,value);
+    
+}
